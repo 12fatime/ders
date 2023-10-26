@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first,.two{
+    width: 100%;
+    height: 300px;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.first1,.first2,.first3,.two1,.two2,.two3{
+    width: 250px;
+    height: 200px;
+    margin: auto;
+    background-color: blueviolet;
+}
